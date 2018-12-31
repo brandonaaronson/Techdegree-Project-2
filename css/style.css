@@ -11,7 +11,7 @@ body {
     background-color: #fed36e;
     padding-bottom: 0;
     margin: 0;    
-    
+    max-width:2000px;
 }
 
 p {
@@ -88,13 +88,14 @@ ul {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 85%;
     height: auto;
     border-radius: 2%;
 }
 
 .intro-img {
     margin-bottom: 20px;
+    width: 60%;
 }
 
 .intro {
@@ -126,6 +127,10 @@ ul {
 
 .skills {
     text-align: center;
+    background-color: #fff;
+    color: #ffa500;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .skills h2 {
@@ -140,6 +145,10 @@ ul {
 .contact {
     text-align: center;
     color: #fff;
+    max-width: 660px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
 }
 
 .contact h2{
@@ -150,6 +159,16 @@ ul {
 .contact li {
     line-height: 2.5em;
     letter-spacing: 1.7px;
+}
+
+.contact a{
+    font-weight: bold;
+    color: #ffa500;
+}
+
+.contact a:hover {
+    color: #fff;
+    transition-duration: .5s;
 }
 
 .main-footer {
@@ -167,19 +186,14 @@ ul {
 .footer-name{
     flex-direction: row;
     margin-right: auto;
-    margin-left: 20px;
+    /* margin-left: 20px; */
+    align-self: center;
 }
 
 .footer-nav li a {
     flex-direction: row;
-    padding: 15px;
+    margin-left: 15px;
     text-transform: uppercase;
-    align-content: center;
-    margin: 5px;
-}
-
-.footer-name {
-    align-self: center;
     
 }
 
@@ -203,6 +217,13 @@ ul {
     font-size: 1.3em;
     }
 
+.nav a:hover {
+    background-color: #fed36e;
+    color: #ffa500;
+    transition-duration: .5s;
+    }
+    
+
 .intro-img {
     width: 40%;
     height: auto;
@@ -223,19 +244,14 @@ ul {
 
 .card {
     float: left;
-    width:50%;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 30px;
+    width: 50%;
+    margin-bottom: 15px;
     padding-bottom: 0;
 }
 
 .card p {
-    max-width: 70%;
-}
-
-.skills {
-    padding-top: 40px;
+    width: 75%;
+    height: 100px;
 }
 
 .skills p, ul{
@@ -254,7 +270,8 @@ ul {
 }
 .footer-name {
     font-size: 1.4em;
-    letter-spacing: 2px;
+    letter-spacing: 1.8px;
+    color: #ad914e;
 }
 .mobile {
     display:none;
@@ -267,6 +284,11 @@ ul {
 }
 
 @media (min-width: 1024px) {
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .main-header {
     flex-direction: row;
@@ -284,12 +306,24 @@ ul {
     align-self: center;
 }
 
+.intro {
+    max-width: 970px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .intro-img {
     margin-right: .3%;
 }
 
 .card {
-    max-width: 33.333%;
+    width: 33.333%;
+    margin-bottom: 25px;
+}
+
+.card p {
+    width: 85%;
+    height: 80px;
 }
 
 }
