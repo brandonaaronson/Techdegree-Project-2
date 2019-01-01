@@ -78,7 +78,7 @@ ul {
 }
 .port-h2 {
     text-transform: uppercase;
-    padding: 20px 0;
+    padding: 0;
 }
 
 .img,
@@ -98,7 +98,7 @@ ul {
 
 .intro {
     color: #fff;
-    padding-bottom: 60px;
+    padding-bottom: 20px;
 }
 
 .portfolio {
@@ -110,7 +110,7 @@ ul {
 }
 
 .contact {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .card {
@@ -127,8 +127,8 @@ ul {
     text-align: center;
     background-color: #fff;
     color: #ffa500;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .skills h2 {
@@ -156,7 +156,7 @@ ul {
 
 .contact li {
     line-height: 2.5em;
-    letter-spacing: 1.7px;
+    letter-spacing: 1.3px;
 }
 
 .contact a{
@@ -232,7 +232,7 @@ ul {
     }
 
 .intro {
-    margin: 40px ;
+    margin: 0 25px 20px;
     font-size: 1.2em;
     }
 
@@ -284,29 +284,28 @@ ul {
 @media (min-width: 1024px) {
 
 body {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 .main-header {
     flex-direction: row;
-    
+    max-height: 80px;
 }
 
 .name {
-    margin-top: 0;
+    margin-top: 0px;
     align-self: center;
     margin-right: auto;
     margin-left: 30px;
 }
 
 .nav {
-    align-self: center;
     margin-right: 30px;
 }
 
 .nav li {
     margin-left: 10px;
+    padding-top: 0px;
 }
 
 .intro {
