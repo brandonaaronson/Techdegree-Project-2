@@ -53,9 +53,7 @@ ul {
 
 .main-header {
     padding-top: 2em;
-    margin-left: 40px;
-    margin-right: 40px;
-    
+    margin-left:0;
 }
 
 .nav a {
@@ -63,8 +61,8 @@ ul {
     color: #fed36e;
     background-color: #fff;
     text-align: center;
-    padding: .4em;
-    margin-top: .7em;
+    padding: 4px;
+    margin-top: 4px;
     font-weight: 600;
 }
 
@@ -100,13 +98,13 @@ ul {
 
 .intro {
     color: #fff;
+    padding-bottom: 60px;
 }
 
 .portfolio {
-    margin:0;
-    margin-top: 30px;
+    
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     background-color: #ffa500;
     color: #fff;
 }
@@ -145,7 +143,7 @@ ul {
 .contact {
     text-align: center;
     color: #fff;
-    max-width: 660px;
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 60px;
@@ -173,7 +171,8 @@ ul {
 
 .main-footer {
     border-top: 1px solid #ffa500;
-    
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
 .main-footer,
@@ -186,8 +185,8 @@ ul {
 .footer-name{
     flex-direction: row;
     margin-right: auto;
-    /* margin-left: 20px; */
     align-self: center;
+    
 }
 
 .footer-nav li a {
@@ -207,7 +206,7 @@ ul {
 .nav {
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin:0 100px 50px;
     }
 
 .nav li a {
@@ -245,7 +244,7 @@ ul {
 .card {
     float: left;
     width: 50%;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
     padding-bottom: 0;
 }
 
@@ -271,7 +270,6 @@ ul {
 .footer-name {
     font-size: 1.4em;
     letter-spacing: 1.8px;
-    color: #ad914e;
 }
 .mobile {
     display:none;
@@ -299,11 +297,16 @@ body {
     margin-top: 0;
     align-self: center;
     margin-right: auto;
+    margin-left: 30px;
 }
 
 .nav {
-    margin-top:0;
     align-self: center;
+    margin-right: 30px;
+}
+
+.nav li {
+    margin-left: 10px;
 }
 
 .intro {
@@ -318,7 +321,7 @@ body {
 
 .card {
     width: 33.333%;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
 .card p {
